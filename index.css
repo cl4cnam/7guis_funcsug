@@ -1,0 +1,25 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	font-family: sans-serif;
+	min-height: 100vh;
+	margin: 0;
+}
+
+a, a:visited {
+	color: rgba(0, 92, 192, 1);
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0, 128, 255, 0.3);
+}
+
+li {
+	margin-bottom: 1em;
+}
+
+li::marker {
+	color: rgba(0, 92, 192, 1);
+	font-size: 1.2em;
+	content: '✿ '
+}
