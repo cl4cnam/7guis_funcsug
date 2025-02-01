@@ -1,0 +1,3 @@
+while true:
+	awaitClickBeep('#increment')
+	displayMessageIn(   1*getText('#count') + 1,   '#count'   )

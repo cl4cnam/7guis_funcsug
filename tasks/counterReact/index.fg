@@ -1,0 +1,8 @@
+parallel:
+	var count := 0
+	while true:
+		awaitClickBeep('#increment')
+		count += 1
+	while true:
+		awaitBeep count
+		displayMessageIn(count, '#count')

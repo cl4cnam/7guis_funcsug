@@ -1,0 +1,7 @@
+body.notSync input {
+	background-color: gray;
+}
+
+input.invalid.invalid {
+	background-color: red;
+}
